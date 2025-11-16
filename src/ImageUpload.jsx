@@ -6,7 +6,7 @@ import bg from "./assets/bg.png";
 import "./ImageUpload.css"; // Import the separate CSS file
 
 export default function ImageUpload() {
-  const API_URL = "http://localhost:8000/predict";
+  const API_URL = "https://b-aackend.onrender.com/predict";
   const [selectedFile, setSelectedFile] = useState(null);
   const [preview, setPreview] = useState(null);
   const [data, setData] = useState(null);
